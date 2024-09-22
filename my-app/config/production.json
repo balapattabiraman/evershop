@@ -1,0 +1,66 @@
+{
+    "shop" : {
+        "currency": "INR",
+        "language": "en",
+        "weightUnit": "kg",
+         "homeUrl": "http://localhost:3000"
+    },   
+    "catalog": {
+        "product": {
+            "image": {
+                "thumbnail": {
+                    "width": 100,
+                    "height": 100
+                },
+                "listing": {
+                    "width": 300,
+                    "height": 300
+                },
+                "single": {
+                    "width": 500,
+                    "height": 500
+                }
+            }
+        },
+        "showOutOfStockProduct": false
+    },
+    "system": {
+        "theme": "friday",
+        "extensions": [
+            {
+                "name": "productComment",
+                "resolve": "extensions/productComment",
+                "enabled": true,
+                "priority": 10 
+            }
+        ]
+    },
+    "pricing": {
+            "tax": {
+                "rounding": "round",
+                "precision": 2,
+                "round_level": "unit",
+                "display_catalog_price_including_tax": true,
+                "display_checkout_price_including_tax": true
+            }
+     },
+
+     
+        "themeConfig": {
+            "logo": {
+                "alt": "RGR Big Bazzar Logo",
+                "src": "/RGRLogo.png",
+                "width": 100,
+                "height": 100
+            },
+            "headTags": {
+                "links": [],
+                "metas": [],
+                "scripts": []
+            },
+            "copyRight": "© 2024 Gemmount Digital Solutions. All Rights Reserved."
+    }
+    
+   
+
+}
